@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: khmeros;
+    src: url(Khmer,Moul/Khmer/Khmer-Regular.ttf);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: Moul;
+    src: url(Moul/Moul-Regular.ttf);
+}
+@font-face {
+    font-family: Battambang;
+    src: url(Abril_Fatface,Battambang/Battambang/Battambang-Regular.ttf);
+}
+@font-face {
+    font-family: Angkor;
+    src: url(Angkor/Angkor-Regular.ttf);
+}
+@font-face {
+    font-family: Hanuman;
+    src: url(Hanuman/Hanuman-Regular.ttf);
+}
+@font-face {
+    font-family: Siemreap;
+    src: url(Siemreap/Siemreap-Regular.ttf);
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    /* background-color: red; */
+    /* overflow: hidden; */
+}
+.boxFont{
+    width: 100%;
+    background-color: rgb(0, 110, 255);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 5px;
+    color: #fff;
+}
+.fontKH{
+    width: 100%;
+    background-color: rgb(0, 128, 70);
+    /* font-style: italic; */
+    margin-top: 30px;
+    padding: 10px;
+}
+.fontKH i{
+    color: #fff;
+    line-height: 25px;
+    font-family: Khmeros;
+}
+.boxFontF{
+    width: 100%;
+    background-color: rgb(0, 166, 255);
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 5px;
+    color: #fff;
+}
+.font{
+    width: 100%;
+    /* background-color: blue; */
+    float: left;
+    margin-top: 20px;
+}
+.font .box{
+    width: 48%;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.box h1{
+    font-size: 30px;
+    color: rgb(0, 106, 255);
+    margin: 10px;
+    /* font-family: Battambang; */
+}
+.box .Battambang{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: 5px 10px;
+    font-family: Battambang;
+    
+}
+.box .Angkor{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: 5px 10px;
+    font-family: Angkor;
+}
+.box .Hanuman{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: 5px 10px;
+    font-family: Hanuman;
+}
+.box .Moul{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin: 5px 10px;
+    font-family: Moul;
+}
+.box .Siemreap{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin: 5px 10px;
+    font-family: Siemreap;
+}
